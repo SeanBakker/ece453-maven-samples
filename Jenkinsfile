@@ -21,4 +21,8 @@ pipeline {
     maven 'DHT_MVN'
     jdk 'DHT_SENSE'
   }
+  environment {
+    DHT_SENSE = 'C:\\Users\\sbakk\\.jdks\\jbr-17.0.12'
+    DHT_MVN = '3.9.7'
+  }
 }
